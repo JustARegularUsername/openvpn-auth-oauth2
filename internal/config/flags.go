@@ -99,6 +99,11 @@ func flagSetHTTP(flagSet *flag.FlagSet) {
 		"enable TLS listener",
 	)
 	flagSet.String(
+		"http.ciphers",
+		Defaults.HTTP.Ciphers,
+		"Select cipher suites (delimiter ':')",
+	)
+	flagSet.String(
 		"http.baseurl",
 		Defaults.HTTP.BaseURL.String(),
 		"listen addr for client listener",

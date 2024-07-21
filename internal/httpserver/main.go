@@ -7,6 +7,7 @@ import (
 	"log/slog"
 	"net"
 	"net/http"
+	"strings"
 	"sync"
 	"time"
 
@@ -56,6 +57,28 @@ func (s *Server) Listen(ctx context.Context) error {
 
 		s.server.TLSConfig = new(tls.Config)
 		s.server.TLSConfig.GetCertificate = s.GetCertificateFunc()
+
+		if len(s.conf.Ciphers) > 0 {
+			var c []uint16
+
+			mapped := make(map[string]uint16)
+			availCiphers := tls.CipherSuites()
+			for i := 0; i < len(availCiphers); i++ {
+				mapped[availCiphers[i].Name] = availCiphers[i].ID
+			}
+
+			cipherArr := strings.Split(s.conf.Ciphers, ":")
+			for i := 0; i < len(cipherArr); i++ {
+				val, ok := mapped[cipherArr[i]]
+				if ok {
+					c = append(c, val)
+				}
+			}
+			if c != nil {
+				s.server.TLSConfig.CipherSuites = c
+				s.logger.Info(fmt.Sprintf("ciphers %v are set", c))
+			}
+		}
 
 		s.logger.Info(fmt.Sprintf(
 			"start HTTPS %s listener on %s", s.name, s.conf.Listen,

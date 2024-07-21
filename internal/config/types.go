@@ -25,6 +25,7 @@ type HTTP struct {
 	CertFile           string             `koanf:"cert"`
 	KeyFile            string             `koanf:"key"`
 	TLS                bool               `koanf:"tls"`
+	Ciphers            string             `koanf:"ciphers"`
 	BaseURL            *url.URL           `koanf:"baseurl"`
 	Secret             Secret             `koanf:"secret"`
 	CallbackTemplate   *template.Template `koanf:"template"`
