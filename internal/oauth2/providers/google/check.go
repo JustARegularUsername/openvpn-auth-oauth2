@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2/idtoken"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2/types"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/state"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2/idtoken"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2/types"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/state"
 	"github.com/zitadel/oidc/v3/pkg/oidc"
 )
 

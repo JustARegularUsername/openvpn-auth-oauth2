@@ -3,8 +3,8 @@ package connection_test
 import (
 	"testing"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/config"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/openvpn/connection"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/config"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/openvpn/connection"
 )
 
 func BenchmarkConnection(b *testing.B) {

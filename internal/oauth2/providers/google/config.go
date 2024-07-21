@@ -1,12 +1,12 @@
 package google
 
 import (
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/config"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2/types"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/config"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2/types"
 	"golang.org/x/oauth2"
 )
 
-// GetProviderConfig implements the [github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2.Provider] interface.
+// GetProviderConfig implements the [github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2.Provider] interface.
 func (p *Provider) GetProviderConfig(conf config.Config) (types.ProviderConfig, error) {
 	providerConfig, err := p.Provider.GetProviderConfig(conf)
 	if err != nil {

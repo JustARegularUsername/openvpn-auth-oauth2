@@ -14,11 +14,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/config"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/openvpn/connection"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/state"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/utils"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/config"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/openvpn/connection"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/state"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/utils"
 )
 
 const minManagementInterfaceVersion = 5

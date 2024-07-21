@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/state"
-	"github.com/jkroepke/openvpn-auth-oauth2/pkg/testutils"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/state"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/pkg/testutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

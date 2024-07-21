@@ -5,7 +5,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/config"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

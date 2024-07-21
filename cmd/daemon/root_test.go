@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/cmd/daemon"
-	"github.com/jkroepke/openvpn-auth-oauth2/pkg/testutils"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/cmd/daemon"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/pkg/testutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/nettest"

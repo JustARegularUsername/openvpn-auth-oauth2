@@ -6,7 +6,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/ui"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/ui"
 	"golang.org/x/oauth2"
 )
 

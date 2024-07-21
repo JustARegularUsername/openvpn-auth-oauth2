@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/config"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2/providers/github"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2/providers/google"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2/types"
-	"github.com/jkroepke/openvpn-auth-oauth2/pkg/testutils"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/config"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2/providers/github"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2/providers/google"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2/types"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/pkg/testutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

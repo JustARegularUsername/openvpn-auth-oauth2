@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/utils"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/utils"
 )
 
 const writeTimeout = 20 * time.Millisecond

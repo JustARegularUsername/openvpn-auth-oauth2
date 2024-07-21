@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2/idtoken"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2/types"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/state"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/utils"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2/idtoken"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2/types"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/state"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/utils"
 	"github.com/zitadel/oidc/v3/pkg/oidc"
 )
 
@@ -21,7 +21,7 @@ type teamType struct {
 	Slug string  `json:"slug"`
 }
 
-// CheckUser implements the [github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2.Provider] interface.
+// CheckUser implements the [github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2.Provider] interface.
 // It checks if mets specific GitHub related conditions.
 func (p *Provider) CheckUser(
 	ctx context.Context, state state.State, userData types.UserData, tokens *oidc.Tokens[*idtoken.Claims],

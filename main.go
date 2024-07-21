@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/cmd/daemon"
-	"github.com/jkroepke/openvpn-auth-oauth2/cmd/state"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/cmd/daemon"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/cmd/state"
 )
 
 //nolint:gochecknoglobals

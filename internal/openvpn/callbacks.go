@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/state"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/state"
 )
 
 func (c *Client) AcceptClient(logger *slog.Logger, client state.ClientIdentifier, username string) {

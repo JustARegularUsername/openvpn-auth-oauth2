@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/config"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/config"
 )
 
 const Name = "generic"

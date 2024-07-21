@@ -1,4 +1,4 @@
-module github.com/jkroepke/openvpn-auth-oauth2
+module github.com/JustARegularUsername/openvpn-auth-oauth2
 
 go 1.22
 
@@ -31,7 +31,6 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/securecookie v1.1.2 // indirect
 	github.com/knadh/koanf/maps v0.1.1 // indirect
-	github.com/kr/text v0.2.0 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/muhlemmer/gu v0.3.1 // indirect

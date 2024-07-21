@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/config"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/config"
 )
 
 func TransformCommonName(mode config.OpenVPNCommonNameMode, commonName string) string {

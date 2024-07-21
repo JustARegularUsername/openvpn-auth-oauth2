@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/state"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/state"
 )
 
 func Execute(args []string, logWriter io.Writer, _, _, _ string) int {

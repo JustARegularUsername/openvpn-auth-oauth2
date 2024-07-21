@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2/types"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/openvpn/connection"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/state"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/storage"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2/types"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/openvpn/connection"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/state"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/storage"
 )
 
 // RefreshClientAuth initiate a non-interactive authentication against the sso provider.

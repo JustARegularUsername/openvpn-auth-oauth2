@@ -4,8 +4,8 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2/idtoken"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2/types"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2/idtoken"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2/types"
 	"github.com/zitadel/oidc/v3/pkg/oidc"
 )
 

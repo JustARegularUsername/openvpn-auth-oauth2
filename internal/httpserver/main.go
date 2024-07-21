@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/config"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/config"
 )
 
 type Server struct {

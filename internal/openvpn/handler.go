@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/openvpn/connection"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/utils"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/openvpn/connection"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/utils"
 )
 
 // handlePassword enters the password on the OpenVPN management interface connection.

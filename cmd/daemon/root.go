@@ -15,12 +15,12 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/config"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/httpserver"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/oauth2"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/openvpn"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/storage"
-	"github.com/jkroepke/openvpn-auth-oauth2/internal/utils"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/config"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/httpserver"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/oauth2"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/openvpn"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/storage"
+	"github.com/JustARegularUsername/openvpn-auth-oauth2/internal/utils"
 )
 
 // Execute runs the main program logic of openvpn-auth-oauth2.
