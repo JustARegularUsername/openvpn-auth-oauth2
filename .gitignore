@@ -72,3 +72,4 @@ $RECYCLE.BIN/
 /3rdpartylicenses/
 /local/
 /tests/**/*.sysconfig
+.vscode
